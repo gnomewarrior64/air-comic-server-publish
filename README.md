@@ -18,9 +18,9 @@ Releases의 **Assets**에서 운영체제와 CPU에 맞는 파일을 내려받�
 
 파일명 예시:
 
-- `air-comic-server-gui_2.1.0_windows_amd64.zip`: 일반 Windows PC용 GUI
-- `air-comic-server-cli_2.1.0_linux_arm64.tar.gz`: Linux ARM64용 CLI
-- `air-comic-server-cli_2.1.0_darwin_arm64.tar.gz`: Apple Silicon Mac용 CLI
+- `air-comic-server-gui_2.1.1_windows_amd64.zip`: 일반 Windows PC용 GUI
+- `air-comic-server-cli_2.1.1_linux_arm64.tar.gz`: Linux ARM64용 CLI
+- `air-comic-server-cli_2.1.1_darwin_arm64.tar.gz`: Apple Silicon Mac용 CLI
 
 `darwin`은 macOS를 뜻합니다. Intel Mac용 파일은 제공하지 않습니다. Windows에서 터미널 사용이 익숙하지 않다면 GUI를 선택하세요.
 
@@ -153,15 +153,15 @@ Windows 실행파일에는 배포 인증서 서명이 없고, macOS CLI에는 Ap
 
 ```powershell
 # Windows — 실제 다운로드한 파일명으로 바꾸세요.
-Get-FileHash -Algorithm SHA256 .\air-comic-server-gui_2.1.0_windows_amd64.zip
+Get-FileHash -Algorithm SHA256 .\air-comic-server-gui_2.1.1_windows_amd64.zip
 ```
 
 ```bash
 # Linux
-sha256sum air-comic-server-cli_2.1.0_linux_amd64.tar.gz
+sha256sum air-comic-server-cli_2.1.1_linux_amd64.tar.gz
 
 # macOS
-shasum -a 256 air-comic-server-cli_2.1.0_darwin_arm64.tar.gz
+shasum -a 256 air-comic-server-cli_2.1.1_darwin_arm64.tar.gz
 ```
 
 ## Synology NAS에서 서비스로 실행
